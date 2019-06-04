@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>京东注册</title>
+<link href="../css/regist.css" type="text/css" rel="stylesheet">
+<script src="../js/commen.js"></script>
+<script src="../js/regist.js"></script>
+</head>
+
+<body bgcolor="#F2F2F2">
+<div style="width:100%; background:#FAFAFA">
+  <div class="w head pst">
+     <div class="fl"><a href="####"><img src="../img/shoucang.png"></a></div>
+     <div class="fr">
+      <ul class="c_both hd_rt">
+        <li id="name">你好，请登录</li><li>|</li>
+        <li>免费注册</li><li>|</li>
+        <li>我的订单</li><li>|</li>
+        <li>手机京东</li><li>|</li>
+        <li class="liLink" id="fuwu">客户服务
+        </li>
+        <li class="liLink" id="daohang">网站导航
+            
+        </li>
+      </ul>
+     </div>
+     <div style="clear:both"></div>
+     <!--head弹框-->
+      <ul id="fuwuList" style="display:none;">
+          <li>客户服务</li><li>客户服务</li><li>客户服务</li>
+       </ul>
+      <ul id="daohangList" style="display:none;">
+         <li>网站导航</li><li>网站导航</li><li>网站导航</li>
+      </ul>           
+  </div>
+ </div>
+  <div class="w logo">
+   <h1><a href="####"><img src="../img/regist/logo.png"></a></h1>
+   <div class="nav" id="nav">
+      <a href="###" class="aActive">个人用户</a>
+      <a href="###" class="aLink">企业用户</a>
+      <a href="###" class="aLink">International Customer</a>
+   </div>
+   <div class="navList">
+     <!--个人用户-->
+     <div class="registDiv">
+      <form action="login.html" onSubmit="return checkSub()">
+           <!--0 errorTig-->
+           <label>
+             <p><span class="red">*</span>用户名</p>
+             <input  type="text" id="username" class="inputLink">
+              <div class="tig"><span class="erroTig">用户名不能为空</span><span class="rightTig">输入正确</span></div>
+          </label>
+          <div style="clear:both;"></div>
+          
+          <label>
+             <p class="fl"><span class="red">*</span>请输入密码</p>
+             <p class="fl"><input  type="password" id="password1" class="inputLink"></p>
+             <div class="passTig" id="passTig">
+                <img src="../img/regist/sanjiao.png" class="sanjiao"> 
+                <span id="passLen" class="Link">长度为6-16个字符</span>
+                <span id="kong" class="Link">不能包含空格</span>
+                <span id="num" class="Link">不能为纯数字</span>
+             </div>
+          </label>
+          <div style="clear:both;"></div>
+          
+          <!--1 errorTig-->
+          <label>
+             <p class="fl"><span class="red">*</span>确认密码</p>
+             <input  type="password" id="password2" class="inputLink">
+              <div class="tig"><span  class="erroTig">两次输入的密码不一致</span><span class="rightTig">输入正确</span></div>
+          </label>
+           <br><div style="clear:both;"></div>
+          
+          <!--2 errorTig-->
+           <label>
+             <p class="fl"><span class="red">*</span>验证手机</p>
+             <input  type="text" id="tel" class="inputLink">
+             <div class="tishi">或<a href="###">验证邮箱</a></div>
+             <div class="tig"><span  class="erroTig">输入11位手机号</span><span class="rightTig">输入正确</span></div>
+          </label>
+           <br><div style="clear:both;"></div>
+          
+          <!--3 errorTig-->
+           <label>
+             <p class="fl"><span class="red">*</span>短信验证码</p>
+             <input  type="text" id="tel" class="inputLink">
+             <a class="huoqu">获取短信验证码</a>
+             <div class="tig"><span  class="erroTig">输入有误</span><span class="rightTig">输入正确</span></div>
+          </label>
+           <br><div style="clear:both;"></div>
+           
+           <!--4 errorTig-->
+           <label>
+             <p class="fl"><span class="red">*</span>验证码</p>
+             <input  type="text" id="tel" class="inputLink">
+             <div class="yanDiv"><span></span><span>看不清换一换</span></div>
+             <div class="tig"><span  class="erroTig">验证码输入错误</span><span class="rightTig">输入正确</span></div>
+          </label>
+           <br><div style="clear:both;"></div>
+           
+            <div class="agree">
+             <input type="checkbox" class="checkbox">我已阅读并同意相关条款<br>
+             <input type="submit" value="立即注册" id="sub">
+            </div>
+      </form>
+     </div>
+     <div style="clear:both"></div>
+      <!--企业用户-->
+     <div class="registDiv" style="display:none;">
+      <form>
+       企业用户
+      </form>
+     </div>
+     
+     
+     <div style="clear:both"></div>
+     <!--International Customer-->
+     <div class="registDiv" style="display:none;">
+      <form>
+      International Customer
+      </form>
+     </div>
+
+   </div>
+   
+  </div>    
+    
+
+  <div class="loginChange">已有账号，<a href="login.html" id="loginChange">去登录</a></div>
+</body>
+   
+</html>
+<script>
+var mRankNameText;
+			appWorkerUser.type = 1;
+					if (appWorkerUser.type == "1" ) {
+						mRankNameText = "附属技师";
+					} else if (appWorkerUser.type == "2") {
+						if (appWorkerUser.level == "1") {
+							mRankNameText = "普通工长";
+						} else if (appWorkerUser.level == "2") {
+							mRankNameText = "重点工长";
+						} else if (appWorkerUser.level == "3") {
+							mRankNameText = "核心工长" ;
+						}
+					} else if (appWorkerUser.type == "3") {
+						if (appWorkerUser.level == "1") {
+							mRankNameText = "普通技师";
+						} else if (appWorkerUser.level == "2") {
+							mRankNameText = "重点技师";
+						} else if (appWorkerUser.level == "3") {
+							mRankNameText = "核心技师";
+						}
+					} else {
+						mRankNameText = "未知类型";
+					}
+					console.log(mRankNameText);
+</script>

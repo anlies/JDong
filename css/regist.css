@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/*****共通部分****/
+*{margin:0; padding:0;}
+ body{ font-size:12px; line-height:20px;font-family:"宋体", Arial, Helvetica, sans-serif ;}
+.red{color:#FF2832; font-size:12px;}
+ ul li{ list-style:none;}
+ .w{ width:990px; margin:0 auto;}
+ .pst{ position:relative;}
+
+/*****超链接共通****/
+a{text-decoration:none;font-size:12px;font-weight:100; outline:none;}
+a img{ border:none;}
+
+/*****浮动共通****/
+.c_both{clear:both;overflow:hidden;} 
+.fl{float:left;}
+.fr{float:right;}
+
+/*head*/
+.head{  position:relative; height:33px; background:#FAFAFA; line-height:33px;}
+.hd_rt li{ float:left; padding:0 10px;}
+.liLink{ background:url(../img/xi_xia.png) no-repeat right center; cursor:pointer;}
+.liActive{ background:url(../img/xi_shang.png) no-repeat right center;cursor:pointer;}
+#fuwuList ,#daohangList {clear:both; width:75px; position:absolute; border:1px solid #ccc; 
+       text-align:center;top:22px; cursor:pointer;}
+#fuwuList { left:86%; background:#FAFAFA}
+#daohangList{ left:93%;background:#FAFAFA}
+#fuwuList li,#daohangList li{ float:none; clear:both; width:75px; }
+
+
+/*logo  nav*/
+.nav{ padding-left:280px; clear:both; overflow:hidden;}
+.nav a{ display:block; float:left; padding:10px 20px; font-size:14px; margin-left:10px; }
+.aLink{ color:#666; border:1px solid #ccc;background:#F7F7F7;}
+.aActive{ color:#E4393C; border:border:1px solid #ccc; background:#fff;font-weight:bold; }
+
+.loginChange{ position:absolute; left:300px; background:#ccc; color:#f00;}
+
+/*注册*/
+.registDiv{ width:890px;  background:#fff; height:600px; padding-left:100px; padding-top:30px;}
+.registTitle{ margin-top:30px; border-bottom:1px solid #ccc; margin-bottom:20px; }
+label{display:block;height:35px; width:990px;position:relative; overflow:visible; margin-bottom:30px;}
+label p{ width:90px; height:35px; line-height:35px; text-align:right; margin-right:10px; float:left;}
+.tig{ width:200px; height:35px; float:left; line-height:35px; }
+.rightTig{ background:url(../img/regist/right.png) no-repeat left center; color:#0C0; padding-left:15px;display:none}
+.erroTig{background:url(../img/regist/erro.png) no-repeat left center; color:#f00;display:none;padding-left:15px;}
+.inputLink{ display:block; height:35px; line-height:35px; width:300px; float:left;
+          padding-left:4px; border:1px solid #ccc;}
+.sanjiao{position:absolute; left:-7px; top:30px;}
+.tishi{ float:left; color:#666;  width:160px; margin-left:10px;}
+#yanzhengma{ display:block; float:left; height:35px; line-height:35px;width:168px; margin-left:98px;}
+.huoqu{ height:35px; display:block; float:left; padding:0 5px; line-height:35px; background:#D1ECFB; text-align:center; margin-left:10px; border:1px solid #A7B6C4;}
+.passTig{ height:60px; padding:10px;position:absolute; right:26px;float:left; top:-10px; left:420px;
+          width:150px;border:1px #ccc solid;display:none}
+
+.passLink{ display:block;  color:#f00;background:url(../img/regist/cuowu.png) no-repeat left center; padding-left:17px;}
+.passAc{ display:block; color:#090;background:url(../img/regist/right.png) no-repeat left center; padding-left:17px;}
+.agree{ margin-left:90px;}
+
+#sub{ display:block; background:#f00; width:100px; margin-top:20px; height:30px; line-height:30px; color:#fff; border:none;}

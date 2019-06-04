@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****共通部分****/
+*{margin:0; padding:0;}
+ body{ font-size:12px; line-height:20px;font-family:"宋体", Arial, Helvetica, sans-serif ;}
+.red{color:#FF3C3C;}
+ ul li{ list-style:none;}
+ .w{ width:1200px; margin:0 auto; }
+ .blue_a{ color:blue; }
+ .pst{ position:relative;}
+
+/*****超链接共通****/
+a{text-decoration:none;font-size:12px;font-weight:100; outline:none; color:#666;}
+a:hover{ color:#3C3;}
+
+a img{ border:none;}
+
+/*****浮动共通****/
+.c_both{clear:both;overflow:hidden;} 
+.fl{float:left;}
+.fr{float:right;}
+
+/*****head****/
+.hd_center input{ display:block; float:left; border:1px solid #ccc;  height:35px;}
+#sear_Bt{ background:#ee3311 url(../img/car/search.png) no-repeat center center; padding:0 20px;}
+#sear_txt{ width:400px;}
+.head{ padding:0px 20px;}
+.hd_center{ padding:0 180px; margin-top:10px}
+.allBt{ background:url(../img/car/xiajian.png) no-repeat 98% center; padding-right:10px}
+.allBtAc{ background:url(../img/car/xiajian.png) no-repeat 98% center; padding-right:10px}
+.allBtList{ position:absolute; left:500px;  top:50px; border:1px solid #ccc; display:none; cursor:pointer}
+
+
+/*****nav****/
+.nav{ height:45px;}
+.nav li{ float:left; margin:0 10px; padding:0 10px; height:45px; cursor:pointer}
+.lh{ line-height:45px; color:#ee3311;}
+.bold{ font-weight:bold; font-size:14px;}
+.navRt li{ float:left; margin:0 20px; height:45px;}
+.btm{ line-height:50px;}
+.car{ background:url(../img/car/car.png) no-repeat center center; padding:20px; color:red; line-height:10px;}
+.main{ width:1300px; margin:0 auto;}
+.mainLeft{ width:1000px; float:left}
+.mainRight{ width:300px; height:700px; float:left}
+/*****main****/
+.goodTitle{ width:990px; height:30px; margin:0}
+.good{width:990px; height:150px;margin:0;}
+.good td{ vertical-align:top;}
+.goodTitle li{ float:left;}
+.FirLi,.FirTd{ width:700px;}
+.cut,.add{ display:block; width:6px; height:6px; padding-bottom:4px;}
+.centerLi,.centerTd{ width:250px;cursor:pointer; }
+.red{ font-size:14px; color:#B1191A; font-weight:bold;}
+.goodDd{ width:570px;}
+.green{ color:#3AA590;}
+.firP{ font-size:16px; color:#ee3311; font-weight:bold;}
+.LastTD{ width:40px;}
+.numDiv{ font-size:20px; padding:5px 20px; background:#F0F1F4; border-radius:7px; border:1px solid #ccc; width:30px; clear:both; overflow:hidden;}
+.LastTD p{ height:20px}
+.cangzuo a{ color:#ee3311;}
+.allPrice{ color:#666;}
+
+
+.backIndex{ background:#F33; position:fixed; top:20px; left:80%;}
+.backIndex a{color:#FFF; font-size:14px;padding:10px;}

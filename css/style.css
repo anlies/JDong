@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*****共通部分****/
+*{margin:0; padding:0;}
+ body{ font-size:12px; line-height:20px;font-family:"宋体", Arial, Helvetica, sans-serif ;}
+.red{color:#FF2832; font-size:12px;}
+ ul li{ list-style:none;}
+ .w{ width:1200px; margin:0 auto;}
+ .pst{ position:relative;}
+
+/*****超链接共通****/
+a{text-decoration:none;font-size:12px;font-weight:100; outline:none;}
+a img{ border:none;}
+
+/*****浮动共通****/
+.c_both{clear:both;overflow:hidden;} 
+.fl{float:left;}
+.fr{float:right;}
+
+#backTop{ background:#CCC; color:#f00; font-size:16px; line-height:40px; padding:5px; cursor:pointer; font-weight:bold; width:40px; height:40px; position:fixed; bottom:20px; right:20px;}
+
+
+/*****head****/
+
+.hdWrap{ background:#F1F1F1;}
+.top{ background:#F1F1F1;height:30px; ine-height:30px;}
+.topUl2 li{ float:left; padding:0 10px; height:30px; line-height:30px; cursor:pointer;}
+
+.topUl{ margin-top:5px;}
+
+.hdLiLink{ background:url(../img/index/xia.png) no-repeat right center;}
+.hdLiAc{ background:url(../img/index/shang.png) no-repeat right center;}
+
+
+/*****弹框们****/
+.alert ul{ position:absolute;}
+/*****city****/
+.txtLink{ width:40px;}
+.adress{ width:300px; background:#FFF; position:absolute; top:19px; color:#666;
+         left:10%; border:1px solid #ccc;  padding-top:10px; display:none; z-index:4}
+.adress li{ padding:5px;}
+.adress li p{ width:140px; text-align:left;}
+.adress a{ padding-left:5px;}
+/*****city end****/
+
+#hdAlert a:hover{color:#f00}
+.my1Hao{  background:#Fff; position:absolute; top:24px; border:1px solid #ccc; 
+          width:80px; text-align:center; padding-top:10px; left:44.2%; display:none; z-index:5}
+.shouji{  background:#Fff; position:absolute; top:24px; border:1px solid #ccc; width:80px;
+           text-align:center; padding-top:10px; left:67.5%; display:none;z-index:5}		  		  
+.guanzhu{  background:#Fff; position:absolute; top:24px; border:1px solid #ccc; width:80px;
+           text-align:center; padding-top:10px; left:74%; display:none;z-index:5}		  
+.kehufuwu{  background:#Fff; position:absolute; top:24px; border:1px solid #ccc; width:80px;
+           text-align:center; padding-top:10px; left:80%; display:none;border-top:none;z-index:5}	
+.wangshang{ background:#fff; position:absolute; top:24px; border:1px solid #ccc; width:80px;
+           text-align:center; padding-top:10px; left:86.5%; display:none;z-index:5 }
+.RTActive{padding:5px 14px 6px 5px;background:#FFF url(../img/index/shang.png) no-repeat 98% 40%; }
+.RTLink{ padding:6px 15px 6px 6px;background:#F1F1F1 url(../img/index/xia.png) no-repeat 98% 40%;}
+.img_pst{ position:absolute; top:30px; left:82%; display:none; z-index:2}
+/*****弹框们结束****/
+
+/*****导航下的广告****/
+.ads{ width:100%; background:#FFC821; position:relative;}
+#exit{ position:absolute; top:5px; right:8%; padding:10px; background:#ccc; color:#FFF; font-size:14px; font-weight:bold; cursor:pointer;}
+
+
+
+/****logo****/
+.hot_sear a{ padding:5px 10px;}
+.logo_center{ margin-left:70px;}
+.cen_ul{ border:2px solid #B61D1D; overflow:hidden; margin-top:15px;}
+.cen_ul li{ float:left; padding:10px 0;}
+.logo{ padding-top:20px;height:50px; position:relative;}
+
+.sear_txt{ display:block; width:300px; padding-left:10px; border:none; height:20px; background:url(../img/huatong.png) no-repeat right center;}
+.sear{ padding:14px 20px; background:#B61D1D; color:#fff;}
+.sear:hover{ color:#fff;}
+.goodLink{ color:#666; border-right:1px solid #ccc; padding:14px;
+            background:#F8F8F8 url(../img/index/xia.png) no-repeat right center; padding-right:12px;}
+.goodActive{ color:#666; border:1px solid #ccc;  padding:13px;
+          background:#F8F8F8 url(../img/index/shang.png) no-repeat right center; padding-right:12px;}
+#shop{left:29.5%;position:absolute; top:70px; background:#F8F8F8;disply:none;width:49px; 
+      border:1px solid #ccc; display:none; border-top:none; z-index:2}	  
+#shop a{ z-index:2; display:block;
+      text-align:center; border-top:none; padding-top:10px; padding-bottom:10px;}
+.logo_rt{ padding-right:40px; padding-top:15px;}	  
+.logo_rt a{ display:block; float:left;}
+
+
+/***********nav************/
+.big_nav{ width:100%; border-bottom:2px solid #FF3C3C; position:relative;}
+.nav{ width:1100px;height:30px;padding-top:20px; padding-left:280px; margin:0 auto;}
+	  
+/***********全部商品分类************/
+.nav_ul li{ float:left;}
+.nav_ul  a{ padding:10px 20px; font-weight:bold; font-size:14px; color:#666;}
+
+.allList{ position:absolute; top:10px; left:7%;z-index:999; } 
+.allList a{ color:#fff; text-align:center;}
+.allList dt {background:#FF3C3C; width:220px; height:40px; line-height:40px; text-align:center;}
+.allList dt a{ font-size:14px; font-weight:bold;  }
+.allList dd img{ vertical-align:middle; padding-right:10px;}
+.allList dd{ background:#C23131 url(../img/you.png) no-repeat 90% center; width:200px; padding:3px 10px;}
+.allList dd.ddLink{background:#C23131 url(../img/you.png) no-repeat 90% center; }
+.allList dd.ddActive{background:#900 url(../img/you.png) no-repeat 90% center;}
+.dtLink{ background:url(../img/baixia.png) no-repeat 99% center; padding-right:20px;}
+.allBt1{background:#FF3C3C url(../img/baishang.png) no-repeat 75% center;
+        width:200px; height:40px; font-size:14px; font-weight:bold; color:#fff;
+        line-height:40px; position:absolute;top:10px; left:7%; padding-right:20px; text-align:center;}
+
+.menu3 div{ position:absolute;background:#fff; top: 50px; left:22.1%; border:3px solid #666; width:1000px; height:500px; z-index:999; display:none;}
+
+
+/********banner***********/
+#banner{position:relative; height:404px; }
+.liBg1{ margin:0 auto; text-align:center; background:#FDCF31;}
+.liBg2{ margin:0 auto;  text-align:center; background:#0099FF;}
+.liBg3{ margin:0 auto;  text-align:center; background:#A2CDED;}
+.liBg4{ margin:0 auto;  text-align:center; background:#661C57;}
+.liBg5{ margin:0 auto;  text-align:center; background:#1A1A1A;}
+#banImg{width:750px; height:400px;}
+#banImgUl li{ position:absolute;width:100%;filter:alpha(opacity:100); opacity:1;}
+#banImgUl li img{ top:0;width:750px;height:404px;}
+
+#smallUl{ position:absolute; width:400px; height:40px;top:350px;  left:38%; z-index:998;}
+#smallUl li{ float:left;width:30px ; height:30px; margin:10px 20px; background:#ccc;}
+
+.before,.next{ position:absolute;font-size:30px; font-weight:bold; padding:20px; background:#FE282A; 
+               color:#fff; outline:none; z-index:500; filter:alpha(opacity:80); opacity:0.8}
+.next{ display: block;top:35%; left:71.5%; border:none; text-align:center;}
+.before{ display: block;top:35%; left:24.5%;border:none;text-align:center;}
+
+.banner_rt{ position:absolute; width:238px; top:0; right:6.5%; background:#FFF; text-align:center;z-index:997; height:410px; }
+.banner_rt dl{ float:left; text-align:center; padding:12px; }
+.rt_top{ margin:0 auto; }
+.ul_cen{ margin-left:25px;}
+.ul_cen li{ float:left; width:60px; height:33px; text-align:center; line-height:33px; }
+
+.txtBt{ display: block; width:100px; background:#fff; border:1px solid #ccc; height:30px;}
+.sanjiao{ background:url(../img/sanjiao.png) no-repeat 97% center;}
+.tab1{ margin:20px auto}
+.chongzhi{ display:block; width:100px; background:#FF5656; color:#fff; border:1px solid #FF0000; margin:20px 20px 20px 30px;
+          text-align:center; height:30px ; line-height:30px; border-radius:5px;}
+	
+	
+	
+	
+/*bottomScroll无缝滚动*/
+
+.bottomScroll{ width:1206px; position:relative; height:150px; margin:20px auto;} 
+.imgAbsolute{position:absolute} 
+.scrollDiv{ margin-left:200px; width:1006px; overflow:hidden;}
+.scrollUl li{ float:left; width:248px;}
+
+/***换一换***/
+#changeul li{ float:left; width:240px;}
+#changeul li img{width:240px;}
+.fenhong{ color:red}
+
+
+
+
+	
+/*lodingImg图片加载*/
+.lodingDiv{ margin-top:20px;}
+.lodingUl img{ width:180px; height:270px; display:block;}
+.lodingUl li{ float:left; width:180px; margin-left:20px; margin-top:10px; height:330px; }
+.show{ color:#93C; font-size:25px; font-weight:bold; width:160px;}
+.chooseType a{ margin:0 10px;}
+.chooseType a:hover{ color:#f00}
+.txt{ width:40px; padding-left:5px;}
+
+
+
+/**notMore**/
+.notMore{ background:#f00; color:#fff; font-size:23px; height:40px; line-height:40px; text-align:center;}
+
+
+/**footer**/
+.footer_top ul{ margin-left:200px;clear:both; overflow:hidden;}
+.footer_top ul li{ float:left; height:60px; width:180px;}
+.footer_top ul li h3{ padding-top:10px;}

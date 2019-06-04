@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;outline:none;}
+body{font-size:13px;font-family:"宋体" Arial;outline:none;}
+a{color:#000;text-align:center;text-decoration:none;}
+ul{list-style:none; }
+.fl{float:left;}
+.fr{float:right;}
+.cr{clear:both;}
+img{vertical-align:middle;}
+.clr{ clear:both;}
+
+
+/*regist*/
+.top,.content,.footer{width:960px;margin:0 auto}
+
+.content{padding:60px 20px; background:url(../img/bg.png) no-repeat; height:400px; position:relative;}
+.registDiv{ width:350px; height:400px; position:absolute; background:#fff;left:600px; margin:0 auto; padding:20px;}
+.rightGegist{ cursor:pointer; color:#f00; background:url(../img/zhuce.png) no-repeat left center; padding-left:20px;}
+.tel,.pwd{ }
+.tel{ background:url(../img/ID.png) no-repeat left center; padding-left:44px; }
+.pwd{ background:url(../img/pwd.png) no-repeat left center;padding-left:44px; }
+.submit{display:block; width:304px; height:38px; border:none;font-size:14px; font-weight:bold;  margin-top:60px; background:#E4393C; color:#fff;}
+label{ display:block; margin-top:20px;}
+.labRt{ margin-left:160px;}
+.reBtm{ display:block; margin-top:30px;}
+.erroTig{ display:none; margin-left:30px; color:red; margin-top:10px; border:1px solid #f00; height:20px; width:100px;}
+.erroDIv{height:30px;}
+
+.telLink{ border:1px solid #BDBDBD; width:260px; height:38px;  margin-top:20px;background:url(../img/ID.png) no-repeat left center; padding-left:44px; }
+.telActive{ border:1px solid #f00; width:260px; height:38px;  margin-top:20px;background:url(../img/ID.png) no-repeat left center; padding-left:44px; }
+
+.passLink{ border:1px solid #BDBDBD; width:260px; height:38px;  margin-top:20px;background:url(../img/pwd.png) no-repeat left center;padding-left:44px; }
+.passActive{ border:1px solid #f00; width:260px; height:38px;  margin-top:20px;background:url(../img/pwd.png) no-repeat left center;padding-left:44px; }
+
+
+/*footer*/
+.footer ul{ clear:both; overflow:hidden; margin-left:40px;}
+.footer li{ float:left; padding:5px 5px;}
